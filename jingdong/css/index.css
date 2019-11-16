@@ -532,7 +532,7 @@
   height: 100%;
   color: #fff;
   background-color: #e83632;
-  background-image: url('/img/seckill.png');
+  background-image: url('https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/4a15d8883775742e3efbb850ae14def7.png');
   background-size: contain;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -725,7 +725,7 @@
   height: 580px;
   box-sizing: border-box;
   margin-right: 37px;
-  background-image: url('/img/backImg.png\ .webp');
+  background-image: url('/img/beijing.png.webp');
   background-repeat: no-repeat;
   margin: 0 auto;
   position: relative;
