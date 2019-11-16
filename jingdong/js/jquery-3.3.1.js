@@ -328,7 +328,7 @@ jQuery.extend( {
 		return typeof Ctor === "function" && fnToString.call( Ctor ) === ObjectFunctionString;
 	},
 
-	isEisEmptyObject: function( obj ) {
+	isEmptyObject: function( obj ) {
 
 		/* eslint-disable no-unused-vars */
 		// See https://github.com/eslint/eslint/issues/6125
