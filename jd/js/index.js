@@ -154,7 +154,7 @@ top1.onclick = function () {
     基于HEAD请求(只获取响应头信息)
 */
 let deathtime = document.querySelector('.death_time .time');
-let target = new Date('2019/11/11 00:00:00'),
+let target = new Date('2020/01/01 00:00:00'),
     now = null,
     timer5 = null;
 // 从服务器获取时间  获取到时间后再做其他的事情
@@ -175,7 +175,7 @@ function computed() {
     let spanTime = target - now;
     if (spanTime <= 0) {
         // 到抢购时间，结束定时器
-        clearInterval(timer);
+        clearInterval(timer5);
         timer5 = null;
         deathtime.innerHTML = '开抢~~';
         return;

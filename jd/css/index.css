@@ -12,18 +12,21 @@
     margin: 0 auto;
     position: relative;
 }
+
 /* 顶部图 */
-.ding{
+.ding {
     width: 1190px;
     margin: 0 auto;
     height: 80px;
     position: relative;
 }
-.ding img{
+
+.ding img {
     width: 1190px;
     height: 80px;
 }
-.ding .guan{
+
+.ding .guan {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -31,6 +34,7 @@
     top: 10px;
     right: 30px;
 }
+
 /* 导航栏开始 */
 .nav {
     width: 100%;
@@ -1222,7 +1226,8 @@
     color: white;
     width: 100%;
 }
-.J_seck .death_time .ti{
+
+.J_seck .death_time .ti {
     float: left;
     margin-top: 80px;
     text-align: center;
@@ -2659,7 +2664,7 @@
     display: block;
 }
 
-.choice .main li a .mask{
+.choice .main li a .mask {
     width: 122px;
     height: 30px;
     margin-top: 10px;
@@ -2675,7 +2680,8 @@
     z-index: 30;
     display: none;
 }
-.choice .main li a .mask .cha{
+
+.choice .main li a .mask .cha {
     position: absolute;
     top: -250px;
     left: 125px;
@@ -2689,11 +2695,11 @@
 /* .choice .main li a:hover .btnBox{
     display: none;
 } */
-.choice .main li a:hover .mas{
+.choice .main li a:hover .mas {
     display: block;
 }
 
-.choice .main li a:hover .mask:hover{
+.choice .main li a:hover .mask:hover {
     background: black;
     color: white;
 }
