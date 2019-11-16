@@ -1,0 +1,2982 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* body */
+.box {
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 顶部图 */
+.ding {
+    width: 1190px;
+    margin: 0 auto;
+    height: 80px;
+    position: relative;
+}
+
+.ding img {
+    width: 1190px;
+    height: 80px;
+}
+
+.ding .guan {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: rgba(116, 37, 37, 0.4);
+    top: 10px;
+    right: 30px;
+}
+
+/* 导航栏开始 */
+.nav {
+    width: 100%;
+    height: 31px;
+    background: #e3e4e5;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav .navv {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav .area_mini {
+    float: left;
+    height: 100%;
+    width: 42px;
+    font-size: 12px;
+    line-height: 31px;
+    color: #999999;
+    padding-left: 25px;
+}
+
+.nav .area_mini:hover {
+    background: white;
+    border-bottom: white;
+}
+
+.nav .nav_name {
+    margin: 0 auto;
+    height: 100%;
+    background: #e3e4e5;
+    float: right;
+    position: relative;
+}
+
+.nav .nav_name a {
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 31px;
+    color: #999999;
+    font-size: 12px;
+    float: right;
+}
+
+.nav .nav_name .office:hover {
+    color: red;
+    background: white;
+}
+
+.nav .nav_name .office2:hover {
+    color: red;
+}
+
+.nav .navv .nav_name .office .off {
+    width: 157px;
+    height: 70px;
+    z-index: 50;
+    background: white;
+    position: absolute;
+    display: none;
+    top: 30px;
+    right: 156px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.nav .nav_name .office:hover .off {
+    display: block;
+}
+
+.nav .navv .nav_name .office .off ul {
+    width: 140px;
+    padding: 10px 0 10px 15px;
+    height: 48px;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .office .off ul li {
+    float: left;
+    height: 24px;
+    width: 50%;
+    line-height: 24px;
+    font-size: 12px;
+    color: gray;
+}
+
+.nav .nav_name .jing:hover {
+    color: red;
+}
+
+.nav .nav_name .haha:hover {
+    color: red;
+    background: white;
+}
+
+.nav .navv .nav_name .haha .me {
+    position: absolute;
+    top: 30px;
+    left: 257px;
+    width: 280px;
+    height: 161px;
+    background: white;
+    z-index: 50;
+    display: none;
+    border: 1px solid #ccc;
+}
+
+.nav .navv .nav_name .haha:hover .me {
+    display: block;
+}
+
+.nav .navv .nav_name .haha .me .shang {
+    width: 265px;
+    height: 72px;
+    padding: 10px 0 10px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav .navv .nav_name .haha .me .shang li {
+    float: left;
+    width: 126px;
+    height: 24px;
+    line-height: 24px;
+    color: gray;
+}
+
+.nav .navv .nav_name .haha .me .xia {
+    width: 265px;
+    height: 48px;
+    padding: 10px 0 10px 15px;
+}
+
+.nav .navv .nav_name .haha .me .xia li {
+    float: left;
+    width: 126px;
+    height: 24px;
+    line-height: 24px;
+    color: gray;
+}
+
+.nav .ditu {
+    width: 300px;
+    height: 416px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+    float: left;
+    background: white;
+    z-index: 50;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    overflow: hidden;
+}
+
+.nav .area_mini:hover .ditu {
+    display: block;
+}
+
+.ditu ul {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ditu ul li {
+    width: 60px;
+    height: 24px;
+    padding: 2px 0;
+    float: left;
+}
+
+.ditu li a {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    padding: 0 8px;
+    text-decoration: none;
+}
+
+.ditu .pp {
+    float: left;
+    margin: 10px 0 10px 10px;
+    height: 60px;
+    width: 100%;
+    font-size: 12px;
+    color: gray;
+}
+
+.ditu .pp p {
+    height: 24px;
+    line-height: 24px;
+    margin: 9px 0;
+}
+
+.ditu .biao {
+    height: 121px;
+    width: 100%;
+    margin: 10px 0 10px 10px;
+    float: left;
+}
+
+.ditu .biao .desc {
+    float: left;
+    height: 24px;
+    width: 100%;
+    margin: 9px 0;
+    line-height: 24px;
+}
+
+.ditu .biao ul {
+    overflow: hidden;
+    height: 78px;
+    width: 100%;
+}
+
+.ditu .biao ul li {
+    float: left;
+    padding: 0;
+    width: 145px;
+    height: 26px;
+}
+
+.ditu .biao ul li .eng {
+    float: left;
+    width: 120px;
+    height: 100%;
+    line-height: 26px;
+}
+
+.ditu .biao ul li .pic1 {
+    margin-top: 7px;
+    height: 10px;
+    width: 15px;
+    float: left;
+    border: 1px;
+    margin-right: 8px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAAbCAYAAADYtRcLAAAAAklEQVR4AewaftIAAALFSURBVO3BTYhVVQAA4O9cn454xr+F0dA1FbOwQDBOgkFQizYtslzUokhCyBZCUWRBm9JVWSujRSW1iRDBCMKiaNMiqQ5URIU/pOgNRaJMHME3+m7PrpHKTMHj8Rim+b5Q17W/VSkNYzMewM04hD04jp1lzm2XCSG4Wt2lR6HLVb4Yvr7Wo5ZLqpRuxF4s949RvICleLVKaXuZ81EDNHpmlssFjdp/a+mqUhrGXix3pTfLnDv4uUrpKWyvUnq2zPmcAblp068EdAhFbe41HQGnTxbqTqBAbVwtjc1Y7kp7MaNKaWmZ85Ey57Eqpc/xGHaYQLj9Pf20+MVT/hIQOfTlDGd/v2DVXagxhmBcLY37cARLEDTuwUK8oatKaQ7ewgHsMCgHNeYFh3+Mdm9dZOTO+81fsMeSeIQLqI2r0PiozHkZTmhsw+P4tMy51ngfC7DSoBXoDPltf3L83Byj7aX++OkO9YUZFCbU0ggaBzGC3WXO31cpjeiqUgpYg4CZ/sUPp5/Tq1uMYwUKdM6J60+497pTOoe3mHnrYmFlzRhq42pptDTW4SV8XKX0LR7VVeZcVyk9iA/xlQE6tnW+i2rMLo5aNW+YMOzsrsrRsblCMKGWxi9VSivKnA9iU5XSK3ga31UpPVzm/FmZ8ydVShsx0wDtf32RRq2lRkdjnvMCgokUGjvxZJXSLI1dGMW1eERXldIcrME7BijGthjbYhwzFM8bih1DsWMonhfjmBjbYmyLsS3GthjbYmyLsS3Ude2iKqUSW/BamfOBKqUNeBvLsBAbsa3M+aRLQggms8IlZc4VnsHdVUovYwPO4HmsxhNlzidNmzZt2v9RqKn1KBBc5d2R1bUePXT8m6CPWvps3aF9ehZn66fCFNbSZ2tvW2+yKExhLXWtZyGYzFr6bN/Xe/RqOM7WT4UprKXPPrhhrcmiMIX9CRYv4u0MBGIsAAAAAElFTkSuQmCC);
+    background-position: 0 0;
+}
+
+.ditu .biao ul li .pic2 {
+    margin-top: 7px;
+    height: 10px;
+    width: 15px;
+    float: left;
+    border: 1px;
+    margin-right: 8px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAAbCAYAAADYtRcLAAAAAklEQVR4AewaftIAAALFSURBVO3BTYhVVQAA4O9cn454xr+F0dA1FbOwQDBOgkFQizYtslzUokhCyBZCUWRBm9JVWSujRSW1iRDBCMKiaNMiqQ5URIU/pOgNRaJMHME3+m7PrpHKTMHj8Rim+b5Q17W/VSkNYzMewM04hD04jp1lzm2XCSG4Wt2lR6HLVb4Yvr7Wo5ZLqpRuxF4s949RvICleLVKaXuZ81EDNHpmlssFjdp/a+mqUhrGXix3pTfLnDv4uUrpKWyvUnq2zPmcAblp068EdAhFbe41HQGnTxbqTqBAbVwtjc1Y7kp7MaNKaWmZ85Ey57Eqpc/xGHaYQLj9Pf20+MVT/hIQOfTlDGd/v2DVXagxhmBcLY37cARLEDTuwUK8oatKaQ7ewgHsMCgHNeYFh3+Mdm9dZOTO+81fsMeSeIQLqI2r0PiozHkZTmhsw+P4tMy51ngfC7DSoBXoDPltf3L83Byj7aX++OkO9YUZFCbU0ggaBzGC3WXO31cpjeiqUgpYg4CZ/sUPp5/Tq1uMYwUKdM6J60+497pTOoe3mHnrYmFlzRhq42pptDTW4SV8XKX0LR7VVeZcVyk9iA/xlQE6tnW+i2rMLo5aNW+YMOzsrsrRsblCMKGWxi9VSivKnA9iU5XSK3ga31UpPVzm/FmZ8ydVShsx0wDtf32RRq2lRkdjnvMCgokUGjvxZJXSLI1dGMW1eERXldIcrME7BijGthjbYhwzFM8bih1DsWMonhfjmBjbYmyLsS3GthjbYmyLsS3Ude2iKqUSW/BamfOBKqUNeBvLsBAbsa3M+aRLQggms8IlZc4VnsHdVUovYwPO4HmsxhNlzidNmzZt2v9RqKn1KBBc5d2R1bUePXT8m6CPWvps3aF9ehZn66fCFNbSZ2tvW2+yKExhLXWtZyGYzFr6bN/Xe/RqOM7WT4UprKXPPrhhrcmiMIX9CRYv4u0MBGIsAAAAAElFTkSuQmCC);
+    background-position: -20px 0;
+}
+
+.ditu .biao ul li .pic3 {
+    margin-top: 7px;
+    height: 10px;
+    width: 15px;
+    float: left;
+    border: 1px;
+    margin-right: 8px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAAbCAYAAADYtRcLAAAAAklEQVR4AewaftIAAALFSURBVO3BTYhVVQAA4O9cn454xr+F0dA1FbOwQDBOgkFQizYtslzUokhCyBZCUWRBm9JVWSujRSW1iRDBCMKiaNMiqQ5URIU/pOgNRaJMHME3+m7PrpHKTMHj8Rim+b5Q17W/VSkNYzMewM04hD04jp1lzm2XCSG4Wt2lR6HLVb4Yvr7Wo5ZLqpRuxF4s949RvICleLVKaXuZ81EDNHpmlssFjdp/a+mqUhrGXix3pTfLnDv4uUrpKWyvUnq2zPmcAblp068EdAhFbe41HQGnTxbqTqBAbVwtjc1Y7kp7MaNKaWmZ85Ey57Eqpc/xGHaYQLj9Pf20+MVT/hIQOfTlDGd/v2DVXagxhmBcLY37cARLEDTuwUK8oatKaQ7ewgHsMCgHNeYFh3+Mdm9dZOTO+81fsMeSeIQLqI2r0PiozHkZTmhsw+P4tMy51ngfC7DSoBXoDPltf3L83Byj7aX++OkO9YUZFCbU0ggaBzGC3WXO31cpjeiqUgpYg4CZ/sUPp5/Tq1uMYwUKdM6J60+497pTOoe3mHnrYmFlzRhq42pptDTW4SV8XKX0LR7VVeZcVyk9iA/xlQE6tnW+i2rMLo5aNW+YMOzsrsrRsblCMKGWxi9VSivKnA9iU5XSK3ga31UpPVzm/FmZ8ydVShsx0wDtf32RRq2lRkdjnvMCgokUGjvxZJXSLI1dGMW1eERXldIcrME7BijGthjbYhwzFM8bih1DsWMonhfjmBjbYmyLsS3GthjbYmyLsS3Ude2iKqUSW/BamfOBKqUNeBvLsBAbsa3M+aRLQggms8IlZc4VnsHdVUovYwPO4HmsxhNlzidNmzZt2v9RqKn1KBBc5d2R1bUePXT8m6CPWvps3aF9ehZn66fCFNbSZ2tvW2+yKExhLXWtZyGYzFr6bN/Xe/RqOM7WT4UprKXPPrhhrcmiMIX9CRYv4u0MBGIsAAAAAElFTkSuQmCC);
+    background-position: 0 -17px;
+}
+
+.ditu .biao ul li .pic4 {
+    margin-top: 7px;
+    height: 10px;
+    width: 15px;
+    float: left;
+    border: 1px;
+    margin-right: 8px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAAbCAYAAADYtRcLAAAAAklEQVR4AewaftIAAALFSURBVO3BTYhVVQAA4O9cn454xr+F0dA1FbOwQDBOgkFQizYtslzUokhCyBZCUWRBm9JVWSujRSW1iRDBCMKiaNMiqQ5URIU/pOgNRaJMHME3+m7PrpHKTMHj8Rim+b5Q17W/VSkNYzMewM04hD04jp1lzm2XCSG4Wt2lR6HLVb4Yvr7Wo5ZLqpRuxF4s949RvICleLVKaXuZ81EDNHpmlssFjdp/a+mqUhrGXix3pTfLnDv4uUrpKWyvUnq2zPmcAblp068EdAhFbe41HQGnTxbqTqBAbVwtjc1Y7kp7MaNKaWmZ85Ey57Eqpc/xGHaYQLj9Pf20+MVT/hIQOfTlDGd/v2DVXagxhmBcLY37cARLEDTuwUK8oatKaQ7ewgHsMCgHNeYFh3+Mdm9dZOTO+81fsMeSeIQLqI2r0PiozHkZTmhsw+P4tMy51ngfC7DSoBXoDPltf3L83Byj7aX++OkO9YUZFCbU0ggaBzGC3WXO31cpjeiqUgpYg4CZ/sUPp5/Tq1uMYwUKdM6J60+497pTOoe3mHnrYmFlzRhq42pptDTW4SV8XKX0LR7VVeZcVyk9iA/xlQE6tnW+i2rMLo5aNW+YMOzsrsrRsblCMKGWxi9VSivKnA9iU5XSK3ga31UpPVzm/FmZ8ydVShsx0wDtf32RRq2lRkdjnvMCgokUGjvxZJXSLI1dGMW1eERXldIcrME7BijGthjbYhwzFM8bih1DsWMonhfjmBjbYmyLsS3GthjbYmyLsS3Ude2iKqUSW/BamfOBKqUNeBvLsBAbsa3M+aRLQggms8IlZc4VnsHdVUovYwPO4HmsxhNlzidNmzZt2v9RqKn1KBBc5d2R1bUePXT8m6CPWvps3aF9ehZn66fCFNbSZ2tvW2+yKExhLXWtZyGYzFr6bN/Xe/RqOM7WT4UprKXPPrhhrcmiMIX9CRYv4u0MBGIsAAAAAElFTkSuQmCC);
+    background-position: -40px 0;
+}
+
+.ditu .biao ul li .pic5 {
+    margin-top: 7px;
+    height: 10px;
+    width: 15px;
+    float: left;
+    border: 1px;
+    margin-right: 8px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAAbCAYAAADYtRcLAAAAAklEQVR4AewaftIAAALFSURBVO3BTYhVVQAA4O9cn454xr+F0dA1FbOwQDBOgkFQizYtslzUokhCyBZCUWRBm9JVWSujRSW1iRDBCMKiaNMiqQ5URIU/pOgNRaJMHME3+m7PrpHKTMHj8Rim+b5Q17W/VSkNYzMewM04hD04jp1lzm2XCSG4Wt2lR6HLVb4Yvr7Wo5ZLqpRuxF4s949RvICleLVKaXuZ81EDNHpmlssFjdp/a+mqUhrGXix3pTfLnDv4uUrpKWyvUnq2zPmcAblp068EdAhFbe41HQGnTxbqTqBAbVwtjc1Y7kp7MaNKaWmZ85Ey57Eqpc/xGHaYQLj9Pf20+MVT/hIQOfTlDGd/v2DVXagxhmBcLY37cARLEDTuwUK8oatKaQ7ewgHsMCgHNeYFh3+Mdm9dZOTO+81fsMeSeIQLqI2r0PiozHkZTmhsw+P4tMy51ngfC7DSoBXoDPltf3L83Byj7aX++OkO9YUZFCbU0ggaBzGC3WXO31cpjeiqUgpYg4CZ/sUPp5/Tq1uMYwUKdM6J60+497pTOoe3mHnrYmFlzRhq42pptDTW4SV8XKX0LR7VVeZcVyk9iA/xlQE6tnW+i2rMLo5aNW+YMOzsrsrRsblCMKGWxi9VSivKnA9iU5XSK3ga31UpPVzm/FmZ8ydVShsx0wDtf32RRq2lRkdjnvMCgokUGjvxZJXSLI1dGMW1eERXldIcrME7BijGthjbYhwzFM8bih1DsWMonhfjmBjbYmyLsS3GthjbYmyLsS3Ude2iKqUSW/BamfOBKqUNeBvLsBAbsa3M+aRLQggms8IlZc4VnsHdVUovYwPO4HmsxhNlzidNmzZt2v9RqKn1KBBc5d2R1bUePXT8m6CPWvps3aF9ehZn66fCFNbSZ2tvW2+yKExhLXWtZyGYzFr6bN/Xe/RqOM7WT4UprKXPPrhhrcmiMIX9CRYv4u0MBGIsAAAAAElFTkSuQmCC);
+    background-position: -20px -17px;
+}
+
+.ditu a:hover {
+    background: #ccc;
+    color: red;
+    cursor: pointer;
+}
+
+.nav .dingdan {
+    height: 180px;
+    width: 220px;
+    border: 1px solid #ccc;
+    display: none;
+    float: right;
+    background: white;
+    position: absolute;
+    top: 30px;
+    right: 335px;
+}
+
+.nav .dingdan a {
+    margin-right: 10px;
+    float: left;
+    font-size: 12px;
+    color: black;
+    padding-left: 10px;
+}
+
+
+.nav .offi {
+    height: 60px;
+    width: 180px;
+    border: 1px solid #ccc;
+    display: none;
+    float: left;
+    background: white;
+    position: absolute;
+    top: 30px;
+    right: 300px;
+}
+
+.nav .offi a {
+    float: left;
+    font-size: 12px;
+    color: black;
+    padding-left: 10px;
+}
+
+.nav .navv .nav_name .kehu:hover {
+    background: white;
+}
+
+.nav .navv .nav_name .kehu .ke {
+    width: 170px;
+    height: 227px;
+    padding: 10px 0;
+    background: white;
+    position: absolute;
+    top: 30px;
+    right: 155px;
+    z-index: 50;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: none;
+}
+
+
+.nav .navv .nav_name .kehu .ke .ke1 {
+    width: 155px;
+    height: 24px;
+    padding-left: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    float: left;
+}
+
+.nav .navv .nav_name .kehu .ke .ke2 {
+    width: 155px;
+    height: 24px;
+    padding: 5px 0 0 15px;
+    margin-top: 5px;
+    float: left;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.nav .navv .nav_name .kehu .ke li {
+    float: left;
+    width: 70px;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 15px;
+}
+
+.nav .navv .nav_name .kehu:hover .ke {
+    display: block;
+}
+
+.nav .navv .nav_name .web .webnav {
+    width: 1188px;
+    height: 149px;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 50;
+    left: -465px;
+    top: 30px;
+    padding: 15px 0;
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .web:hover .webnav {
+    display: block;
+}
+
+.nav .navv .nav_name .web:hover {
+    background: white;
+}
+
+.nav .navv .nav_name .web .webnav .one {
+    float: left;
+    width: 340px;
+    height: 149px;
+    padding-left: 20px;
+}
+
+.nav .navv .nav_name .web .webnav .one dt {
+    width: 340px;
+    height: 24px;
+    margin-bottom: 5px;
+    line-height: 24px;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.nav .navv .nav_name .web .webnav .one dd {
+    width: 340px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .web .webnav .one dd div {
+    width: 85px;
+    height: 24px;
+    float: left;
+}
+
+.nav .navv .nav_name .web .webnav .two {
+    float: left;
+    border-left: 1px solid #ccc;
+    width: 256px;
+    height: 149px;
+    padding-left: 20px;
+}
+
+.nav .navv .nav_name .web .webnav .two dt {
+    width: 256px;
+    height: 24px;
+    margin-bottom: 5px;
+    line-height: 24px;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.nav .navv .nav_name .web .webnav .two dd {
+    width: 255px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .web .webnav .two dd div {
+    width: 85px;
+    height: 24px;
+    float: left;
+}
+
+.nav .navv .nav_name .web .webnav .three {
+    float: left;
+    border-left: 1px solid #ccc;
+    width: 255px;
+    height: 149px;
+    padding-left: 20px;
+}
+
+.nav .navv .nav_name .web .webnav .three dt {
+    width: 255px;
+    height: 24px;
+    margin-bottom: 5px;
+    line-height: 24px;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.nav .navv .nav_name .web .webnav .three dd {
+    width: 255px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .web .webnav .three dd div {
+    width: 85px;
+    height: 24px;
+    float: left;
+}
+
+.nav .navv .nav_name .web .webnav .four {
+    float: left;
+    border-left: 1px solid #ccc;
+    width: 254px;
+    height: 125px;
+    padding-left: 20px;
+}
+
+.nav .navv .nav_name .web .webnav .four dt {
+    width: 255px;
+    height: 24px;
+    margin-bottom: 5px;
+    line-height: 24px;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.nav .navv .nav_name .web .webnav .four dd {
+    width: 255px;
+    height: 96px;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .web .webnav .four dd div {
+    width: 85px;
+    height: 24px;
+    float: left;
+}
+
+.nav .navv .nav_name .wo .box {
+    width: 190px;
+    height: 312px;
+    border: 1px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    position: absolute;
+    z-index: 50;
+    top: 30px;
+    right: 0;
+    background: white;
+    display: none;
+}
+
+.nav .navv .nav_name .wo .box .one {
+    width: 190px;
+    height: 70px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .wo .box .one .img {
+    width: 76px;
+    height: 76px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 5px;
+}
+
+.nav .navv .nav_name .wo .box .one .img img {
+    height: 70px;
+    width: 70px;
+    margin: 2px 0 0 2px;
+}
+
+.nav .navv .nav_name .wo .box .one .you {
+    width: 94px;
+    height: 70px;
+    margin: 0 10px 0 86px;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .wo .box .one .you h5 {
+    width: 94px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    float: left;
+    color: #666666;
+}
+
+.nav .navv .nav_name .wo .box .one .you p {
+    width: 94px;
+    height: 14px;
+    margin: 3px 0;
+    line-height: 14px;
+    float: left;
+    color: red;
+}
+
+.nav .navv .nav_name .wo .box .one .you .tu {
+    width: 94px;
+    height: 25px;
+    float: left;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .wo .box .one .you .tu .img1 {
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+    display: block;
+    background: url(https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png);
+    background-position: 0 0;
+    float: left;
+}
+
+.nav .navv .nav_name .wo .box .one .you .tu .img2 {
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+    display: block;
+    background: url(https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png);
+    background-position: 0 -26px;
+    float: left;
+}
+
+.nav .navv .nav_name .wo .box .one .you .tu .img3 {
+    height: 25px;
+    width: 25px;
+    display: block;
+    background: url(https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png);
+    background-position: 0 -52px;
+    float: left;
+}
+
+.nav .navv .nav_name .wo .box .two {
+    width: 190px;
+    height: 79px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .wo .box .two .img {
+    width: 76px;
+    height: 76px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 5px;
+}
+
+.nav .navv .nav_name .wo .box .two .img img {
+    height: 70px;
+    width: 70px;
+    margin: 2px 0 0 2px;
+}
+
+.nav .navv .nav_name .wo .box .two .you {
+    width: 94px;
+    height: 76px;
+    margin: 0 10px 0 86px;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .wo .box .two .you h5 {
+    width: 94px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    float: left;
+    color: #666666;
+}
+
+.nav .navv .nav_name .wo .box .two .you p {
+    width: 94px;
+    height: 56px;
+    margin: 3px 0;
+    float: left;
+    font-size: 12px;
+    line-height: 14px;
+    color: #f10214;
+}
+
+.nav .navv .nav_name .wo .box .three {
+    width: 190px;
+    height: 70px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .wo .box .three .img {
+    width: 76px;
+    height: 76px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 5px;
+}
+
+.nav .navv .nav_name .wo .box .three .img img {
+    height: 70px;
+    width: 70px;
+    margin: 2px 0 0 2px;
+}
+
+.nav .navv .nav_name .wo .box .three .you {
+    width: 94px;
+    height: 70px;
+    margin: 0 10px 0 86px;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .wo .box .three .you h5 {
+    width: 94px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    float: left;
+    color: #666666;
+}
+
+.nav .navv .nav_name .wo .box .three .you p {
+    width: 94px;
+    height: 14px;
+    margin: 3px 0;
+    line-height: 14px;
+    float: left;
+    color: red;
+}
+
+.nav .navv .nav_name .wo .box .three .you .tu {
+    width: 94px;
+    height: 25px;
+    float: left;
+    overflow: hidden;
+}
+
+.nav .navv .nav_name .wo .box .three .you .tu .img1 {
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+    display: block;
+    background: url(https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png);
+    background-position: 0 0;
+    float: left;
+}
+
+.nav .navv .nav_name .wo .box .three .you .tu .img2 {
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+    display: block;
+    background: url(https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png);
+    background-position: 0 -26px;
+    float: left;
+}
+
+.nav .navv .nav_name .wo:hover .box {
+    display: block;
+}
+
+
+/* 搜索框开始 */
+.ww {
+    width: 100%;
+    height: 141px;
+    background: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.w {
+    width: 1190px;
+    margin: 0 auto;
+    height: 141px;
+    background: white;
+}
+
+.w .img_box1 {
+    width: 190px;
+    height: 120px;
+    float: left;
+}
+
+.w img {
+    width: 100%;
+    height: 100%;
+}
+
+.w .form {
+    width: 550px;
+    height: 36px;
+    box-sizing: border-box;
+    border: 2px solid #e1251b;
+    margin-top: 15px;
+    float: left;
+    margin-left: 80px;
+}
+
+.w .form .text {
+    padding: 2px 44px 2px 17px;
+    width: 425px;
+    height: 26px;
+    border: none;
+    outline: none;
+}
+
+.w .form .btn {
+    height: 32px;
+    width: 58px;
+    background: #e1251b;
+    float: right;
+    color: white;
+}
+
+.w .form .btn img {
+    height: 22px;
+    width: 22px;
+}
+
+.w .shop_car {
+    width: 130px;
+    height: 34px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.w .shop_car a {
+    line-height: 34px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #e1251b;
+}
+
+.w .hot_words {
+    float: left;
+    margin-left: 80px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.w .hot_words a {
+    padding-right: 10px;
+    color: #999999;
+    text-decoration: none;
+}
+
+.w .img_box2 {
+    width: 190px;
+    height: 120px;
+    float: right;
+}
+
+.w .navitems {
+    float: left;
+    padding-top: 20px;
+    margin-left: 25px;
+    height: 42px;
+    width: 762px;
+}
+
+.w .navitems a {
+    text-decoration: none;
+    color: #333333;
+    padding-right: 18px;
+    font-size: 15px;
+}
+
+.w .navitems .kill {
+    color: red;
+    font-weight: 700;
+}
+
+/* 主体内容 */
+.fs {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 左边列表 */
+.fs .leftMenu {
+    height: 450px;
+    width: 190px;
+    background: white;
+    padding-top: 20px;
+    float: left;
+    position: relative;
+}
+
+.fs .leftMenu span {
+    display: block;
+    padding-left: 18px;
+    font-size: 14px;
+    height: 25px;
+    width: 172px;
+    line-height: 25px;
+}
+
+.fs .leftMenu span .liebiao {
+    height: 450px;
+    width: 980px;
+    background: yellowgreen;
+    display: none;
+    position: absolute;
+    left: 190px;
+    top: 0;
+    z-index: 50;
+    padding-left: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.leftMenu span:hover {
+    background: #eee;
+}
+
+.leftMenu span:hover .liebiao {
+    display: block;
+}
+
+.leftMenu span .liebiao p {
+    float: left;
+    margin-right: 25px;
+    font-size: 14px;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    background: black;
+}
+
+.leftMenu span .liebiao p:hover {
+    background: red;
+}
+
+.leftMenu span .liebiao ul {
+    float: left;
+    height: 30px;
+    padding: 5px 0 0 5px;
+}
+
+.leftMenu span .liebiao ul .imp {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.leftMenu span .liebiao ul li {
+    float: left;
+    font-size: 14px;
+    line-height: 30px;
+    margin-right: 15px;
+}
+
+/* .leftMenu span .liebiao .rightBox{
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+}
+.leftMenu span .liebiao .rightBox p{
+    float: left;
+    width: 100px;
+    height: 50px;
+}
+.leftMenu span .liebiao .rightBox p img{
+    height: 100%;
+    width: 100%;
+} */
+
+/* 轮播图 */
+.fs .swipper {
+    position: relative;
+    float: left;
+    height: 470px;
+    width: 590px;
+    overflow: visible;
+    margin-left: 10px;
+}
+
+.fs .img_box {
+    position: relative;
+    height: 470px;
+    width: 590px;
+}
+
+.fs .img_box li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 470px;
+    width: 590px;
+}
+
+.fs .swipper .img_box li img {
+    height: 100%;
+    width: 100%;
+}
+
+.fs .swipper .arrow .left_btn {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 222px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fs .swipper .arrow .right_btn {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    right: 0;
+    top: 222px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fs .swipper .tipBox {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    left: 120px;
+    bottom: 30px;
+}
+
+.fs .swipper .tipBox .tip {
+    width: 8px;
+    height: 8px;
+    margin-top: 13px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: gray;
+    float: left;
+}
+
+.fs .swipper .tipBox .tip.current {
+    background: white;
+}
+
+/* 右侧轮播列表 */
+.fs .sliderList {
+    height: 470px;
+    width: 195px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.fs .sliderList img {
+    height: 150px;
+    width: 190px;
+    margin-bottom: 10px;
+}
+
+.fs .sliderList img :nth-child(3n) {
+    margin-bottom: 0;
+}
+
+/* 右侧登录 */
+.fs .denglu {
+    width: 190px;
+    height: 470px;
+    float: left;
+    background: white;
+    overflow: hidden;
+}
+
+.fs .denglu img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 13px;
+    float: left;
+}
+
+.fs .denglu .happy {
+    margin-top: 16px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #999999;
+    float: left;
+}
+
+.fs .denglu .logIn {
+    float: left;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.fs .denglu .leftN,
+.fs .denglu .rightN {
+    width: 70px;
+    height: 25px;
+    background: red;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 25px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.fs .denglu .JDKB {
+    float: left;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.fs .denglu .h {
+    color: red;
+    background: palevioletred;
+    height: 21px;
+    width: 35px;
+    margin-top: 5px;
+    font-size: 12px;
+    float: left;
+}
+
+.fs .denglu li {
+    width: 150px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 12px;
+    margin-top: 5px;
+    float: left;
+    padding-left: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.fs .denglu .icon {
+    width: 100%;
+    height: 253px;
+    float: left;
+}
+
+.fs .denglu .icon .iconS img {
+    height: 28px;
+    width: 28px;
+}
+
+.fs .denglu .icon .iconS {
+    height: 45px;
+    width: 60px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.fs .denglu .icon .iconS p {
+    font-size: 12px;
+    width: 37px;
+    height: 17px;
+    text-align: center;
+    padding-left: 17px;
+}
+
+/* 秒杀跑马灯 */
+
+.J_seck {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.J_seck .death_time {
+    height: 260px;
+    width: 190px;
+    background: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/4a15d8883775742e3efbb850ae14def7.png);
+    float: left;
+}
+
+.J_seck .death_time p {
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+}
+
+.J_seck .death_time .ti {
+    float: left;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+}
+
+.J_seck .death_time .time {
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.J_seck .leftbox {
+    width: 800px;
+    height: 100%;
+    float: left;
+    background: white;
+}
+
+.J_seck .leftbox .xiao {
+    height: 260px;
+    width: 800px;
+    float: left;
+}
+
+.J_seck .leftbox .xiao li {
+    height: 260px;
+    width: 200px;
+    float: left;
+    position: relative;
+}
+
+.J_seck .leftbox .xiao li img {
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.J_seck .leftbox .xiao li p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 160px;
+    height: 18px;
+    font-size: 12px;
+    color: #333333;
+    margin: 13px 20px 0;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+}
+
+.J_seck .leftbox .price {
+    box-sizing: border-box;
+    border: 1px solid #c81623;
+    width: 160px;
+    height: 24px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+
+}
+
+.J_seck .leftbox .price .l-price {
+    background: #e1251b;
+    color: white;
+    font-size: 16px;
+    height: 22px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.J_seck .leftbox .price .r-price {
+    background: white;
+    font-size: 12px;
+    color: #999999;
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+    height: 22px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.J_seck .brand {
+    height: 260px;
+    width: 200px;
+    float: left;
+    background: white;
+    position: relative;
+}
+
+.J_seck .brand .brand_box {
+    height: 240px;
+    width: 180px;
+    padding: 10px;
+    position: relative;
+}
+
+.J_seck .brand .brand_box img {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.J_seck .brand .brand_box p {
+    width: 180px;
+    height: 21px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    position: absolute;
+    top: 170px;
+}
+
+.J_seck .brand .brand_box h1 {
+    width: 180px;
+    height: 21px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    position: absolute;
+    top: 190px;
+    font-weight: 700;
+}
+
+.J_seck .brand .brand_box .nang {
+    height: 24px;
+    width: 82px;
+    border-radius: 14px;
+    position: absolute;
+    border: 1px solid salmon;
+    background: red;
+    bottom: 10px;
+    left: 60px;
+    text-align: center;
+}
+
+/* 椭圆图开始 */
+.jd_container {
+    background: url('../img/beijing.png');
+    height: 580px;
+    width: 1265px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.jd_container .pic_box {
+    height: 440px;
+    width: 1012px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.jd_container .pic_box a {
+    height: 210px;
+    width: 190px;
+    margin: 0 12.5px 10px 0;
+    float: left;
+}
+
+.jd_container .pic_box a:nth-child(5n) {
+    margin-right: 0;
+}
+
+.jd_container .pic_box img {
+    height: 100%;
+    width: 100%;
+}
+
+.jd_container .floor {
+    width: 1012px;
+    height: 110px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.jd_container .floor a {
+    height: 100px;
+    width: 190px;
+    margin: 0 12.5px 10px 0;
+    float: left;
+}
+
+.jd_container .floor a:nth-child(5n) {
+    margin-right: 0;
+}
+
+.jd_container .floor img {
+    height: 100%;
+    width: 100%;
+}
+
+/* 排行榜左 */
+.ranking {
+    width: 1190px;
+    margin: 0 auto;
+    height: 340px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+}
+
+.ranking .rankleft {
+    width: 590px;
+    height: 340px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+}
+
+.ranking .rankleft .hd {
+    height: 60px;
+    width: 550px;
+    margin: 0 15px;
+    position: relative;
+}
+
+.rankleft .hd h3 {
+    height: 100%;
+    width: 200px;
+    font-size: 24px;
+    line-height: 60px;
+    float: left;
+}
+
+.rankleft .hd span {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    top: 50%;
+    left: 80px;
+    margin-top: -8px;
+    position: absolute;
+    border: 1px solid red;
+}
+
+.rankleft .hd .tab_head {
+    float: left;
+    height: 60px;
+    width: 350px;
+}
+
+.ranking .hd .tab_head div {
+    float: left;
+    line-height: 60px;
+    margin-right: 20px;
+}
+
+.ranking .hd .tab_head div a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.ranking .hd .tab_head .yun_current a {
+    color: red;
+}
+
+.ranking .hd .tab_head div:nth-child(5) {
+    margin-right: 0;
+}
+
+.rankleft .pic_box {
+    width: 270px;
+    height: 180px;
+    background: rgba(109, 126, 146, .05);
+    margin-left: 15px;
+    position: relative;
+}
+
+.rankleft .pic_box .sma_box {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    background: orangered;
+}
+
+.rankleft .pic_box .sma_box h1 {
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.rankleft .pic_box .sma_box h2 {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.rankleft .pic_box .img {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 25px;
+    left: 90px;
+}
+
+.rankleft .pic_box .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.rankleft .pic_box .text {
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 12px;
+    color: #333333;
+}
+
+.rankleft .listBox {
+    height: 84px;
+    width: 272px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.rankleft .listBox .list {
+    height: 40px;
+    width: 134px;
+    margin: 0 2px 2px 0;
+    float: left;
+    background: rgba(109, 126, 146, .05);
+    line-height: 40px;
+    text-align: center;
+}
+
+.rankleft .rig {
+    height: 240px;
+    width: 290px;
+    position: absolute;
+    right: 0;
+    top: 75px;
+}
+
+.rankleft .rig .tip {
+    height: 80px;
+    width: 290px;
+}
+
+.rankleft .rig .tip .sma_box {
+    height: 42px;
+    width: 30px;
+    background: orange;
+    position: absolute;
+    float: left;
+}
+
+.rankleft .rig .tip .sma_box h1 {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.rankleft .rig .tip .sma_box h2 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.rankleft .rig .img {
+    height: 70px;
+    width: 70px;
+    margin-left: 45px;
+    position: absolute;
+    float: left;
+}
+
+.rankleft .rig .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.rankleft .rig .text {
+    height: 32px;
+    width: 150px;
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+}
+
+/* 右边盒子 */
+.ranking .rankright {
+    width: 590px;
+    height: 340px;
+    float: left;
+    position: relative;
+    background: white;
+}
+
+.ranking .rankright .hd {
+    height: 60px;
+    width: 550px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.ranking .rankright h3 {
+    font-size: 24px;
+    color: #333333;
+    line-height: 60px;
+}
+
+.ranking .rankright span {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    top: 50%;
+    left: 120px;
+    margin-top: -8px;
+    position: absolute;
+    border: 1px solid red;
+}
+
+.ranking .rankright .img_box {
+    height: 265px;
+    width: 270px;
+    float: left;
+    background: rgba(109, 126, 146, .05);
+}
+
+.ranking .rankright .img_box .tubiao {
+    height: 35px;
+    width: 70px;
+    margin: 15px 100px 0 100px;
+}
+
+.ranking .rankright .img_box h1 {
+    margin-top: 6px;
+    height: 24px;
+    width: 270px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.ranking .rankright .img_box .wen {
+    width: 270px;
+    height: 18px;
+    float: left;
+    margin-top: 1px;
+    margin-bottom: 13px;
+}
+
+.ranking .rankright .img_box .wen .wenL {
+    margin-left: 90px;
+    font-size: 12px;
+    float: left;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.ranking .rankright .img_box .wen .wenR {
+    font-size: 12px;
+    float: left;
+    padding-left: 10px;
+}
+
+.ranking .rankright .img_box .shoes {
+    height: 130px;
+    width: 130px;
+    margin: 0 70px 0 70px;
+}
+
+.ranking .rankright .good-others {
+    height: 312px;
+    width: 270px;
+    float: left;
+    background: white;
+    margin-left: 25px;
+}
+
+.ranking .rankright .good-others .minbox {
+    height: 100px;
+    width: 135px;
+    float: left;
+}
+
+.ranking .rankright .good-others .minbox img {
+    height: 50px;
+    width: 100px;
+}
+
+.ranking .rankright .good-others .minbox .wen {
+    font-size: 12px;
+    color: #666666;
+    margin: 6px 0px 0px -27px;
+    text-align: center;
+}
+
+/* 跑马灯开始 */
+.container {
+    margin-top: 15px;
+    width: 100%;
+    height: 260px;
+}
+
+.container .contain {
+    width: 1190px;
+    height: 260px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.container .contain .boxL {
+    height: 260px;
+    width: 190px;
+    float: left;
+}
+
+.container .contain .boxL img {
+    height: 100%;
+    width: 100%;
+}
+
+.container .contain .boxL .box {
+    position: absolute;
+    height: 89px;
+    width: 160px;
+    top: 15px;
+    left: 15px;
+}
+
+.container .contain .boxL .box img {
+    width: 160px;
+    height: 90px;
+}
+
+.container .contain .boxL .box p {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+
+.container .contain .boxL .box span {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 12px;
+    left: 102px;
+}
+
+.container .contain .boxL .box:hover span {
+    background: red;
+}
+
+/* 右侧跑马灯 */
+.container .contain .paomadeng {
+    width: 990px;
+    height: 260px;
+    margin-left: 10px;
+    float: right;
+    position: relative;
+    background: white;
+    overflow: hidden;
+}
+
+.container .contain .paomadeng ul {
+    width: 990px;
+    height: 260px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .contain .paomadeng ul li {
+    height: 180px;
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 50px;
+    float: left;
+}
+
+.container .contain .paomadeng ul li img:nth-child(2n+1) {
+    width: 150px;
+    height: 150px;
+    padding-bottom: 10px;
+}
+
+.container .contain .paomadeng ul li img:nth-child(2n) {
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.container .contain .paomadeng ul li p {
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+
+/* 领券中心 */
+.coupon {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.coupon .couponBox {
+    height: 340px;
+    width: 290px;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+}
+
+.coupon .couponBox .hdBox {
+    height: 60px;
+    width: 290px;
+    float: left;
+    background: white;
+}
+
+.coupon .couponBox .hdBox h3 {
+    padding: 0 20px;
+    font-size: 24px;
+    color: #333333;
+    line-height: 60px;
+}
+
+.coupon .couponBox .hdBox span {
+    height: 14px;
+    width: 14px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 23px;
+    left: 123px;
+}
+
+.coupon .couponBox .hdBox span:hover {
+    background: red;
+}
+
+.coupon .picBox {
+    background: url('../img/liebiao.png') no-repeat;
+    height: 280px;
+    width: 290px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.coupon .picBox img {
+    height: 100%;
+    width: 100%;
+}
+
+.picBox .item1 {
+    height: 83px;
+    width: 260px;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 15px;
+}
+
+.picBox .item1 .photo {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 15px;
+    top: 15px;
+}
+
+.picBox .item1 .photo img {
+    height: 50px;
+    width: 50px;
+}
+
+.picBox .item1 .price {
+    position: absolute;
+    height: 34px;
+    width: 140px;
+    top: 0;
+    left: 66px;
+    overflow: hidden;
+}
+
+.picBox .item1 .price .jia {
+    position: absolute;
+    color: red;
+    top: 18px;
+    left: 0px;
+    font-size: 14px;
+}
+
+.picBox .item1 .price span {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: 28px;
+    font-weight: 400;
+    color: red;
+}
+
+.picBox .item1 .limit {
+    position: absolute;
+    height: 18px;
+    width: 140px;
+    left: 70px;
+    top: 36px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.picBox .item1 .buy {
+    position: absolute;
+    height: 18px;
+    width: 140px;
+    left: 70px;
+    bottom: 10px;
+    font-size: 12px;
+    color: #333333;
+    line-height: 18px;
+}
+
+.picBox .item1 .more {
+    width: 1px;
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    font-size: 10px;
+}
+
+.coupon .guang {
+    height: 340px;
+    width: 290px;
+    background: white;
+    float: left;
+    margin-right: 10px;
+}
+
+.coupon .guang .hd {
+    height: 60px;
+    width: 250px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.coupon .guang .hd p {
+    line-height: 60px;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 700;
+}
+
+.coupon .guang .hd span {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+    top: 23px;
+    left: 95px;
+}
+
+.coupon .guang .box {
+    width: 260px;
+    height: 128px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.coupon .guang .litbox {
+    padding: 15px 125px 15px 15px;
+    height: 98px;
+    width: 120px;
+    position: relative;
+}
+
+.coupon .guang .litbox .desc {
+    color: #333333;
+    font-size: 14px;
+}
+
+.coupon .guang .litbox .left {
+    height: 16px;
+    width: 24px;
+    padding: 0 2px;
+    border: 1px solid red;
+    font-size: 12px;
+    color: red;
+    line-height: 16px;
+    margin-right: 5px;
+}
+
+.coupon .guang .litbox .right {
+    height: 16px;
+    width: 24px;
+    padding: 0 2px;
+    border: 1px solid #596FAB;
+    font-size: 12px;
+    color: #596FAB;
+    line-height: 16px;
+}
+
+.coupon .guang .litbox p {
+    position: absolute;
+    float: left;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.coupon .guang .box .img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: white;
+}
+
+.coupon .guang .box .img img {
+    height: 90px;
+    height: 90px;
+    margin: auto;
+}
+
+.coupon .swip {
+    height: 340px;
+    width: 290px;
+    float: left;
+    background: white;
+    margin-right: 10px;
+}
+
+.coupon .swip .hd {
+    width: 250px;
+    height: 60px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.coupon .swip .hd h3 {
+    line-height: 60px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.coupon .swip .hd span {
+    height: 14px;
+    width: 14px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 22px;
+    left: 75px;
+}
+
+.coupon .swip .tuwen {
+    height: 251px;
+    width: 260px;
+    margin: 0 auto;
+}
+
+.coupon .swip .tuwen .imgBox {
+    height: 173px;
+    width: 260px;
+    overflow: hidden;
+}
+
+.coupon .swip .tuwen .imgBox .one {
+    height: 173px;
+    width: 173px;
+    float: left;
+    position: relative;
+}
+
+.coupon .swip .tuwen .imgBox .one .pin {
+    height: 20px;
+    width: 38px;
+    position: absolute;
+    text-align: center;
+    line-height: 20px;
+    left: 8px;
+    top: 5px;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.coupon .swip .tuwen .imgBox .one img {
+    height: 100%;
+    width: 100%;
+}
+
+.coupon .swip .tuwen .imgBox .two {
+    height: 86px;
+    width: 86px;
+    float: left;
+    margin-left: 1px;
+}
+
+.coupon .swip .tuwen .imgBox .two img {
+    height: 100%;
+    width: 100%;
+}
+
+.coupon .swip .tuwen .imgBox .three {
+    height: 86px;
+    width: 86px;
+    float: left;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.coupon .swip .tuwen .imgBox .three img {
+    height: 100%;
+    width: 100%;
+}
+
+.coupon .swip .tuwen p {
+    width: 260px;
+    height: 20px;
+    margin: 18px 0 12px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+}
+
+.coupon .swip .tuwen .bot {
+    width: 86px;
+    height: 24px;
+    margin: 0 auto;
+}
+
+.coupon .swip .tuwen .bot .icon {
+    height: 24px;
+    width: 24px;
+    float: left;
+}
+
+.coupon .swip .tuwen .bot .icon img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.coupon .swip .tuwen .bot a {
+    float: left;
+    text-decoration: none;
+    font-size: 14px;
+    color: #333333;
+    line-height: 24px;
+    margin-left: 3px;
+}
+
+.coupon .newBox {
+    height: 340px;
+    width: 290px;
+    float: left;
+    background: white;
+}
+
+.coupon .newBox .hd {
+    width: 250px;
+    height: 60px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.coupon .newBox .hd h3 {
+    line-height: 60px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.coupon .newBox .hd span {
+    height: 14px;
+    width: 14px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 22px;
+    left: 120px;
+}
+
+.coupon .newBox .tuwen {
+    height: 160px;
+    width: 260px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: url(../img/xie.png) no-repeat;
+}
+
+.coupon .newBox .tuwen .textBox {
+    height: 74px;
+    padding-top: 32px;
+    padding-left: 15px;
+    float: left;
+}
+
+.coupon .newBox .tuwen .textBox span {
+    height: 16px;
+    width: 58px;
+    text-align: center;
+    border: 1px solid red;
+    color: #E1215b;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 4px;
+}
+
+.coupon .newBox .tuwen .textBox p {
+    height: 40px;
+    width: 110px;
+    margin: 4px 0 6px;
+    color: #333333;
+    font-size: 14px;
+}
+
+.coupon .newBox .tuwen .textBox p:hover {
+    color: red;
+}
+
+.coupon .newBox .tuwen .textBox .line {
+    width: 14px;
+    height: 2px;
+    background: black;
+}
+
+.coupon .newBox .tuwen .phone {
+    height: 110px;
+    width: 110px;
+    float: right;
+    padding-top: 32px;
+    padding-right: 10px;
+}
+
+.coupon .newBox .tuwen .textBox .phone img {
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;
+}
+
+.coupon .newBox .ph {
+    width: 260px;
+    height: 76px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.coupon .newBox .ph a {
+    height: 76px;
+    width: 76px;
+    flex: 1;
+}
+
+.coupon .newBox .ph a img {
+    height: 100%;
+    width: 100%;
+}
+
+/* 频道广场 */
+.floor {
+    width: 1190px;
+    height: 815px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.floor .floorBar {
+    width: 100%;
+    height: 65px;
+    overflow: hidden;
+}
+
+.floor .floorBar .Bar {
+    float: left;
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.floor .floorBar .Bar h1 .span1 {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/floor_hd/sprite.png);
+    width: 25px;
+    height: 20px;
+    display: block;
+    left: 0px;
+    top: 14px;
+    background-position: 0px 0px;
+    position: absolute;
+}
+
+
+.floor .floorBar .Bar h1 {
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    padding: 0 30px;
+    line-height: 45px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.floor .floorBar .Bar h1 .span2 {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/floor_hd/sprite.png);
+    width: 25px;
+    height: 20px;
+    display: block;
+    right: 0px;
+    top: 14px;
+    background-position: 25px 0px;
+    position: absolute;
+}
+
+.floor .channelBox {
+    width: 1200px;
+    height: 760px;
+    overflow: hidden;
+}
+
+.floor .channelBox .channels {
+    width: 100%;
+    height: 100%;
+}
+
+.floor .channelBox .channels .big {
+    width: 290px;
+    height: 370px;
+    background: sienna;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.floor .channelBox .channels .big img {
+    width: 100%;
+    height: 100%;
+}
+
+.floor .channelBox .channels .box {
+    height: 180px;
+    width: 290px;
+    background: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.floor .channelBox .channels .box .hd {
+    height: 30px;
+    width: 250px;
+    padding-top: 17px;
+    padding-bottom: 13px;
+    margin-left: 30px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.floor .channelBox .channels .box .hd h1 {
+    font-size: 22px;
+    color: #333333;
+    float: left;
+}
+
+.floor .channelBox .channels .box .hd p {
+    color: #999999;
+    font-size: 14px;
+    margin-left: 5px;
+    float: left;
+}
+
+.floor .channelBox .channels .box .picBox {
+    width: 290px;
+    height: 100px;
+    padding: 0 30px;
+}
+
+.floor .channelBox .channels .box .picBox img {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+/* 为您推荐 */
+.choice {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.choice .choiceBar {
+    width: 100%;
+    height: 65px;
+    overflow: hidden;
+}
+
+.choice .choiceBar .Bar {
+    float: left;
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.choice .choiceBar .Bar h1 .span1 {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/floor_hd/sprite.png);
+    width: 25px;
+    height: 20px;
+    display: block;
+    left: 0px;
+    top: 14px;
+    background-position: 0px 0px;
+    position: absolute;
+}
+
+
+.choice .choiceBar .Bar h1 {
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    padding: 0 30px;
+    line-height: 45px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.choice .choiceBar .Bar h1 .span2 {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/floor_hd/sprite.png);
+    width: 25px;
+    height: 20px;
+    display: block;
+    right: 0px;
+    top: 14px;
+    background-position: 25px 0px;
+    position: absolute;
+}
+
+.choice .gridBox {
+    width: 1190px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    background: white;
+}
+
+.choice .gridBox .feed_tab {
+    width: 1015px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.choice .gridBox .feed_tab li {
+    float: left;
+    width: 203px;
+    height: 100%;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+
+.choice .gridBox .feed_tab li:nth-child(5) {
+    border-right: none;
+}
+
+.choice .gridBox .feed_tab .list1 .box {
+    margin-top: 7px;
+    width: 80px;
+    height: 27px;
+    background: red;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 27px;
+}
+
+.choice .gridBox .feed_tab .list1 .wen {
+    width: 203px;
+    height: 21px;
+    text-align: center;
+    color: red;
+    font-size: 14px;
+}
+
+.choice .gridBox .feed_tab .list2 .box {
+    margin-top: 7px;
+    width: 100%;
+    height: 27px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 27px;
+    background: white;
+}
+
+.choice .gridBox .feed_tab .list2 .wen {
+    width: 203px;
+    height: 21px;
+    color: #999999;
+    text-align: center;
+    font-size: 14px;
+}
+
+.choice .gridBox .feed_tab .list2:hover {
+    color: red;
+}
+
+.choice .main {
+    width: 1190px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.choice .main li {
+    width: 230px;
+    height: 322px;
+    margin-right: 10px;
+    float: left;
+    box-sizing: border-box;
+    background: white;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.choice .main li a {
+    display: block;
+    float: left;
+    width: 230px;
+    height: 322px;
+    text-decoration: none;
+}
+
+.choice .main li:nth-child(5n) {
+    margin-right: 0;
+}
+
+.choice .main li .picBox {
+    width: 100%;
+    height: 220px;
+
+}
+
+.choice .main li .picBox img {
+    height: 150px;
+    width: 150px;
+    margin: 30px 40px 40px 40px;
+}
+
+.choice .main li a p {
+    width: 190px;
+    height: 48px;
+    padding: 0 20px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+    word-break: break-all;
+}
+
+.choice .main li a p i {
+    font-size: 12px;
+    margin: 0 4px 0 0;
+    color: #fff;
+    background: #e1251b;
+    padding: 0 5px;
+    font-style: normal;
+}
+
+.choice .main li a .btnBox {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 45px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.choice .main li a .btnBox .left {
+    width: 115px;
+    height: 45px;
+    flex: 1;
+    text-align: center;
+    color: #E1215b;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    display: block;
+}
+
+.choice .main li a .btnBox .right {
+    width: 115px;
+    height: 45px;
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    line-height: 45px;
+    color: #E1215b;
+    display: block;
+}
+
+.choice .main li a .mask {
+    width: 122px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #333333;
+    background: red;
+    line-height: 30px;
+    z-index: 30;
+    display: none;
+}
+
+.choice .main li a .mask .cha {
+    position: absolute;
+    top: -250px;
+    left: 125px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* .choice .main li a:hover .btnBox{
+    display: none;
+} */
+.choice .main li a:hover .mas {
+    display: block;
+}
+
+.choice .main li a:hover .mask:hover {
+    background: black;
+    color: white;
+}
+
+/* .choice .main li a .btnBox:hover .left {
+    display: none;
+}
+
+.choice .main li a .btnBox:hover .right {
+    display: none;
+} */
+
+/* 底部 */
+.footer {
+    width: 100%;
+    height: 568px;
+    position: relative;
+    bottom: 0;
+}
+
+.footer .mod {
+    width: 100%;
+    height: 42px;
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer .mod .mod_sevice {
+    height: 42px;
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.footer .mod .mod_sevice ul {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer .mod .mod_sevice ul li {
+    float: left;
+    width: 297px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 18px;
+    color: #444444;
+    font-weight: 700;
+}
+
+.footer .help {
+    width: 100%;
+    height: 160px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer .help .inner {
+    width: 1190px;
+    height: 160px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer .help .inner .wen {
+    width: 1190px;
+    height: 160px;
+}
+
+.footer .help .inner .wen .first {
+    width: 198px;
+    height: 159px;
+    float: left;
+}
+
+.footer .help .inner .wen .first h1 {
+    width: 198px;
+    height: 22px;
+    margin-bottom: 5px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.footer .help .inner .wen .first ul {
+    height: 132px;
+    width: 198px;
+}
+
+.footer .help .inner .wen .first ul li {
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.help .inner .wen .cover {
+    width: 200px;
+    height: 150px;
+    float: right;
+    background: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/23f3ddf914b1b527d0429a3d713cfe3a.png);
+    background-position: 0 0;
+}
+
+.help .inner .wen .cover h1 {
+    width: 200px;
+    height: 21px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+.help .inner .wen .cover .wen {
+    width: 180px;
+    height: 73px;
+    padding: 0 10px;
+}
+
+.help .inner .wen .cover .wen .left {
+    height: 54px;
+    width: 180px;
+    color: #666666;
+    font-size: 12px;
+    text-align: left;
+}
+
+.help .inner .wen .cover .wen p {
+    width: 180px;
+    height: 19px;
+    line-height: 19px;
+    text-align: right;
+}
+
+.help .inner .wen .cover .wen p a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+}
+
+.help .inner .wen .cover .wen p a:hover {
+    color: #e1251b;
+}
+
+.footer .last {
+    width: 100%;
+    height: 265px;
+}
+
+.footer .last .lastMenu {
+    width: 1190px;
+    height: 234px;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+.footer .last .lastMenu .one {
+    width: 100%;
+    height: 18px;
+    text-align: center;
+}
+
+.footer .last .lastMenu .one a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.footer .last .lastMenu .one a span {
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.footer .last .lastMenu .info {
+    width: 100%;
+    height: 110px;
+    padding: 10px;
+}
+
+.footer .last .lastMenu .info .one {
+    width: 1190px;
+    height: 22px;
+    text-align: center;
+}
+
+.footer .last .lastMenu .info .one a {
+    color: #999999;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+.footer .last .lastMenu .info .one a span {
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.footer .last .lastMenu .info_icon {
+    width: 100%;
+    height: 36px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.footer .last .lastMenu .info_icon .one {
+    background: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/23f3ddf914b1b527d0429a3d713cfe3a.png);
+    height: 32px;
+    width: 103px;
+    margin: 0 3px;
+    background-position: -205px -111px;
+    display: inline-block;
+}
+
+.footer .last .lastMenu .info_icon .two {
+    background: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/23f3ddf914b1b527d0429a3d713cfe3a.png);
+    height: 32px;
+    width: 103px;
+    margin: 0 3px;
+    background-position: -205px -74px;
+    display: inline-block;
+}
+
+.footer .last .lastMenu .info_icon .three {
+    background: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/23f3ddf914b1b527d0429a3d713cfe3a.png);
+    height: 32px;
+    width: 103px;
+    margin: 0 3px;
+    background-position: -205px -37px;
+    display: inline-block;
+}
+
+.footer .last .lastMenu .info_icon .four {
+    background: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/23f3ddf914b1b527d0429a3d713cfe3a.png);
+    height: 32px;
+    width: 103px;
+    margin: 0 3px;
+    background-position: -205px 0;
+    display: inline-block;
+}
+
+.footer .last .lastMenu .info_icon .five {
+    background: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/23f3ddf914b1b527d0429a3d713cfe3a.png);
+    height: 32px;
+    width: 103px;
+    margin: 0 3px;
+    background-position: 0 -155px;
+    display: inline-block;
+}
+
+.Rnav {
+    height: 466px;
+    width: 60px;
+    position: fixed;
+    right: -4px;
+    bottom: 135px;
+    background: white;
+    display: none;
+}
+
+.Rnav ul {
+    height: 466px;
+    width: 60px;
+}
+
+.Rnav ul li {
+    height: 57px;
+    width: 60px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 28.5px;
+    text-align: center;
+}
+
+.Rnav ul .top {
+    width: 60px;
+    height: 57px;
+    border-bottom: 0;
+}
