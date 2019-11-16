@@ -1,0 +1,16 @@
+{
+  "id": "1474536",
+  "name": "网易云yin'yue",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1800706",
+      "name": "放大镜",
+      "font_class": "magnifier",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    }
+  ]
+}
